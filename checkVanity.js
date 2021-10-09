@@ -20,10 +20,10 @@ const fs = require('fs');
                     httpsAgent: agent,
                     timeout: config.finalTimeoutAxios,
                 }).then(res => {
-                    fs.appendFile('taken.txt', vanity, (err) => { if (err) throw err; })
+                    fs.appendFile('taken.txt', vanity + '\n', (err) => { if (err) throw err; })
                     console.log(chalk.red.bold(`${vanity}`))
                 }).catch(err => {
-                    fs.appendFile('available.txt', vanity, (err) => { if (err) throw err; })
+                    fs.appendFile('available.txt', vanity + '\n', (err) => { if (err) throw err; })
                     console.log(chalk.green.bold(`${vanity}`))
                 })
     }
