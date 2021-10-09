@@ -13,6 +13,9 @@ git clone https://github.com/JackCrispy/VanityChecker.git
 npm install
 npm run start
 ```
+- Put your proxies in proxies.txt (https://proxyscrape.com/free-proxy-list)
+- Make sure there is a vanitys.txt file, I already provide one which has over 3000+ possible vanity names.
+
 # Settings & Config 📘
 The settings are automcatically applied based off of your vanity length and Array Chunk Size value in the config.json file.
 
