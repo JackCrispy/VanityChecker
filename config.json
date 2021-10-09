@@ -1,6 +1,6 @@
 {
-    "proxyCheckDelay": 15,
+    "proxyCheckDelay": 25,
     "vanityCheckDelay": 1,
-    "arrChunkSize": 20,
+    "arrChunkSize": 155,
     "finalTimeoutAxios": 3000
 }
