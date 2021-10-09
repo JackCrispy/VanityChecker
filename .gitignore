@@ -118,3 +118,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 node_modules
+
+Finalproxies.txt
+available.txt
+taken.txt
